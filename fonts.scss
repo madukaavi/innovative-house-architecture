@@ -1,0 +1,11 @@
+$font-size:(
+    small:14px,
+    medium:16px,
+    large:18px,
+    extra-large:55px
+);
+
+@mixin font-size($size){
+    font-size:map-get($font-size , $size );
+}
+

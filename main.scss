@@ -1,0 +1,212 @@
+@import'color.scss';
+@import 'fonts.scss';
+
+// nav-bar-area
+.main-nav-outer{
+    height: 50px;
+    background-color:var(--light-color);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    -webkit-box-shadow: 3px 17px 14px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 17px 14px -12px rgba(0,0,0,0.75);
+    box-shadow: 3px 17px 14px -12px rgba(0,0,0,0.75);
+
+    .nav-context{
+        flex: 1;
+    img{
+        height: 45px;
+    }
+}
+    .nav-right{
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+           
+        }
+        li{
+            margin: 15px;
+        }
+        
+    }
+
+    
+ }
+//nav-bar-area
+//main-slider-area
+.main-slider-outer{
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://img.freepik.com/free-photo/girl-signs-documents-lady-red-helmet-managerl-working-office_1157-41806.jpg?size=626&ext=jpg&ga=GA1.2.1169658845.1684659084&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-slider-context{
+    width: 60%;
+    height: 100%;
+    padding: 0px 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-slider-title-text{
+    color:var(--orange-color);
+    @include font-size(extra-large);
+}
+
+.main-slider-desc-text{
+    @include font-size(medium);
+    color: var(--light-color);
+}
+
+.subscribe-data-outer{
+    width: 380px;
+    height: 45px;
+    display: flex;
+
+    input{
+        flex: 1;
+        padding: 0 8;
+        border: none;
+        
+    }
+
+    button{
+        width: 100px;
+        background-color: var(--orange-color);
+        color:var(--light-color);
+        border: none;
+        text-transform: uppercase;
+    }
+    input:focus{
+        outline: none;
+    }
+    
+}
+
+//main-slider-area
+
+//services-area
+#service{
+    margin-top: 50px;
+}
+.service-box{
+    height: 250px;
+    color: white;
+}
+.service-box:first-child{
+    background-color: rgb(192, 51, 0);
+}
+.service-box:nth-child(2){
+    background-color: rgb(112, 112, 112);
+}
+.service-box:nth-child(3){
+    background-color: rgb(192, 51, 0);
+}
+.service-box:last-child{
+    background-color: rgb(75, 75, 75);
+}
+//services-area
+
+//little-about-area
+.little-about-main-outer{
+    background-color: #F1F1F1;
+    min-height: 400px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: inherit;
+
+    h1{
+        color:var(--orange-color);
+        font-weight:500;
+        font-size: 45px;
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+        text-align: center;
+    }
+    button{
+        background-color: var(--orange-color);
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        background: rgb(255,254,140);
+        background: linear-gradient(90deg, rgba(255,254,140,1) 0%, rgba(255,171,0,1) 35%);
+    }
+}
+
+}
+//little-about-area
+
+//about area
+.main-about-outer{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange-color);
+}
+.main-about-inner{
+    width: 80vw;
+    height: 100%;
+}
+.row{
+    margin: 0;
+}
+.about-inner{
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+//about area
+
+//about we do area
+.what-we-do-main{
+    width: 100%;
+    height: auto;
+}
+.bg-outer{
+    height: 450px;
+    background-image: url('https://img.freepik.com/free-photo/excavator-action_1112-1598.jpg?size=626&ext=jpg&ga=GA1.1.1058205164.1694164743&semt=sph');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.what-we-do-element-context{
+    width: 100%;
+    height: 200px;
+    margin-top: -100px;
+}
+.whta-we-do-inner{
+    background-color: white;
+    padding: 10px;
+    height: 200px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+//about we do area
